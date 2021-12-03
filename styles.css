@@ -1,0 +1,66 @@
+html{
+	font-family: "Lato", sans-serif;
+}
+
+header {
+	z-index: 1;
+	position: absolute;
+	left:0;
+	top:0;
+	padding:1em;
+	background: #555555;
+	color: white;
+	width: 100%;
+	height: 4em;
+	box-sizing: border-box;
+	font-weight: bold;
+}
+
+.header_titre{
+	float: left;
+	border: 0px solid red;
+	align-items: center;
+	
+	position: absolute;
+	top: 50%;
+	left:1em;
+	transform: translateY(-50%);
+	font-size:1.25em;
+}
+
+.header_nav{
+	float: right;
+	border: 0px solid red;
+	align-items: center;
+	height:100%;
+	
+	position: absolute;
+	top: 50%;
+	right: 1em;
+	transform: translateY(-50%);
+	color:white;	
+}
+
+a{
+	height:100%;
+	text-decoration: none;
+	color: white;
+	
+	padding: 1.45em 0.5em;
+    float: right;
+}
+
+a:hover, a:active {
+  background-color: white;
+  color: grey;
+}
+
+div.titrePage{
+  position:relative;
+  top:4em;
+  width:80%;
+  border: 1px solid red;
+  margin: auto;
+}
+
+
